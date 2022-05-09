@@ -1,0 +1,99 @@
+body {
+  background-color: gold;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 2.6em;
+  text-transform: uppercase;
+}
+
+.wrapper {
+  width: 800px;
+  margin: 30px auto;
+  color: white;
+  text-align: center;
+}
+
+/* #seconds,
+#tens {
+  font-size: 100px;
+} */
+
+#timer{
+  font-size: 100px;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+/*Start Button*/
+#start-button {
+  position: relative;
+  background-color: white;
+  border: none;
+  padding: 20px;
+  width: 100px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+#start-button:hover {
+  background: #fff;
+  box-shadow: 0px 2px 10px 5px #ffffff;
+  color: #000;
+}
+/*---------------------*/
+
+/*Stop Button*/
+#stop-button {
+  position: relative;
+  background-color: white;
+  border: none;
+  padding: 20px;
+  width: 100px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+#stop-button:hover {
+  background: #fff;
+  box-shadow: 0px 2px 10px 5px #ffffff;
+  color: #000;
+}
+
+/*Reset Button*/
+#reset-button {
+  position: relative;
+  background-color: white;
+  border: none;
+  padding: 20px;
+  width: 100px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+#reset-button:hover {
+  background: #fff;
+  box-shadow: 0px 2px 10px 5px #ffffff;
+  color: #000;
+}
